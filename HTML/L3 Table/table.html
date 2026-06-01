@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html table</title>
+    <style>
+        table{
+            text-align:center;
+            border:2px solid black;
+            border-collapse: collapse;
+        }
+        tr,td,th{
+            border:2px solid black;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1> HTML Table</h1>
+    <hr/>
+    <table>
+        <thead>
+            <tr>
+                <th>username</th>
+                <th>password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>dev</td>
+                <td>ravi12</td>
+            </tr>
+             <tr>
+                <td>rajan</td>
+                <td>nath76</td>
+            </tr>
+             <tr>
+                <td>alok</td>
+                <td>ad gaming</td>
+            </tr>
+        </tbody>
+        <!-- for count how many no.of person-->
+         <tfoot>
+            <tr>
+                <td colspan = "2"> Total no.of user = 3</td>
+            </tr>
+         </tfoot>
+    </table>
+</body>
+</html>
