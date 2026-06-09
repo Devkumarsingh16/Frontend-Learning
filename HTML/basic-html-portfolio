@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev website</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href = ""target = "_blank">
+                <img src = "https://t3.ftcdn.net/jpg/05/00/15/70/360_F_500157093_zuMAlp0UUZD49ojQKBL6U9vIpCUMiaLt.jpg" width = "100%" height = "200" alt = "image"/>
+            </a>
+        </div>
+        <nov>
+            <ul style = "list-style-type:none; display:flex; gap:20px;">
+                <li><a href = "#">Home</a></li>
+                  <li><a href = "#">About</a></li>
+                    <li><a href = "#">Contact</a></li>
+                      <li><a href = "#contact">Serices</a></li>
+            </ul>
+        </nov>
+    </header>
+    <main>
+        <section class = "hero-section">
+            <h1> Dev Kumar Singh</h1>
+            <p> I am come from technical background and helping other to grow in technical field.</p>
+            <button> see my works</button>
+            <a href = "https://www.instagram.com/shahodevil/"><button> visit my insta</button></a>
+        </section>
+        <article>
+            <h2>About Me</h2>
+            <p> I am Dev Kumar Singh, I am a web developer and a programmer. I love to code and design beautiful websites. I have been in this field for more than 2 years. I have worked on many projects and have a good experience in web development. I am always eager to learn new technologies and improve my skills. In my free time, I like to read books, watch movies, and play games.</p>
+        </article>
+</body>
+</html>
