@@ -1,0 +1,22 @@
+
+h1{
+    color: red;
+}
+.para{
+    color: green;
+}
+#btn{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
