@@ -1,0 +1,44 @@
+html{
+    font-family: "Urbanist", sans-serif;
+}
+
+#main-heading{
+    
+    font-size: 60px;
+    color:black
+}
+
+p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.5;
+}
+
+.section-margin{
+    /*width: 50%;*/
+    
+    color:#fff;
+    background-color: rgb(0,0,0,0.6);
+    /*border*/
+    border: 15px solid #003180;
+
+    /*border we can also use like this*/
+
+   /* border-top: 10px solid red;
+    border-right: 20px solid yellow;
+    border-bottom: 30px solid green;
+    border-left: 40px solid blue;*/
+    margin:auto;  /* it is space outside the border */; 
+    padding: 50px;
+    margin-bottom: 50px;
+}
+div{
+    width:100%;
+    height: 100px;
+    background-color: rgb(0,0,0,0.6);
+    border: 15px solid #003180 ; /* if border radius is 50% then it will be circle but condition is width and height same hona chahiye*/
+    /*top-left top-right bottom-right bottom-left*/
+   margin: auto;
+
+}
