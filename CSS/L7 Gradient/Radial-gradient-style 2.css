@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+section{
+    width:100%;
+    height:100vh;
+    /*background-image: radial-gradient( red,yellow);
+                      /* we add shape like circle,ellipse*/
+    background-image: radial-gradient(circle, red,yellow,green);   /*we can add color percentage like red 40%,yellow 20%, green 60%*/
+    /* we can also repeat */
+    /*background-image: repeating-radial-gradient(circle, red,yellow,green);*/
+}
