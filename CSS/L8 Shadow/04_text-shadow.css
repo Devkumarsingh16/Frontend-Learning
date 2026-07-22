@@ -1,0 +1,45 @@
+body{
+    background-color: lightskyblue;
+    display: grid;
+    place-items: center;
+}
+
+.hero-section{
+    width:50%;   
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "urbanist", sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    text-align: right;
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 10px;
+    text-transform: capitalize;
+    text-shadow : -2px -2px 5px red;
+}
+
+h2{
+    text-align: left;
+
+}
+p{
+        font-family: "urbanist", sans-serif;
+        font-size: 20px;
+        /*text spacing*/
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        line-height:1.56;
+
+}
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: left;
+}
