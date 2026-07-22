@@ -1,0 +1,23 @@
+*{
+    margin: 10px;
+    padding: 0px;
+     box-sizing: border-box;
+}
+
+.box{
+     /* display: inline; */
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            padding: 20px;
+}
+
+.ud{
+            border: 2px solid green;
+            width: 300px;
+            height: 200px;
+            margin: 5px;
+            padding: 5px;
+            display: inline-block;
+            /* display: block; */
+        }
