@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost";
+}
+body{
+     background-color: aqua;
+     color:rgb(1, 9, 17);
+     height: 100vh;
+}
+.container{
+    height: 100vh;
+    max-width: 1320px;
+    padding: 64px 0;
+    margin: auto;
+    display: grid;
+
+}
+.grid{
+    display: grid;
+   align-items: center;
+    gap: 6.4rem;
+    
+}
+.grid-two-colume{
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.hero-content h1{
+    text-align: left;
+    font-size: 54px;
+}
+.hero-content p{
+   
+    font-size: 18px;
+    margin: 2rem 0 4rem 0;
+    letter-spacing: 1px;
+   
+}
+.hero-content a:link{
+    background-color: seashell;
+    display: inline-block;
+    padding: 10 px 32px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.hero-content a:visited{
+    background-color: springgreen;
+    
+    color: #d67e03;
+}
+.hero-content a:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+    color: crimson;
+}
+.hero-content a:active{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+    transform: translateY(-1px);
+    color: #0a03d6;
+}
