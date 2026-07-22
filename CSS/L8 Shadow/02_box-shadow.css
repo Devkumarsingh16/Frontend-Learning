@@ -1,0 +1,21 @@
+root{
+        --primary-color:blue;
+    --custom-width:330px;
+
+}
+div{ 
+    
+    background-color: rgb(255, 0, 225);
+    --primary-color:blue;
+    --custom-width:330px;
+      box-shadow: 10px 15px 5px var( --primary-color);    /*for outer shadow */
+     /* box-shadow:inset 10px 15px 5px blue;  foe inner shadow */
+     /*box-shadow:10px 15px red, 10px 20px green ;  /*mutiple color*/
+     width:vaar(-custom-width);
+    height:250px; 
+    border: 2px solid black;
+    margin: 10px;
+    padding: 50px;
+    overflow:hidden;
+
+}
