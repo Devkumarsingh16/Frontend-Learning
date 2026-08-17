@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Transition</title>
+    <style>
+        .box{
+            width:200px;
+            height:200px;
+            background-color: bisque;
+            border: 2px solid black;
+            margin:auto;
+
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+            transition: all 3s linear 1s;
+
+        }
+        .container{
+            width:100vw;
+            height:100vh;
+            display: flex;
+        }
+
+        .box:hover{
+            background-color: blue;
+            /* transform: rotate(45deg); */
+            transform: scale(2);  /* size increase 2 time of orignal */
+            transform: scale(0.5); /* size decreasse .5 time of original */
+            transform: skew(45deg);   /* box ka angle change krna*/
+            transform: skew(-45deg);
+            transform: translate(500px,0px);   /* use for movement of box here 500px denote movement in x-axis and 0px in y-axis*/
+        }
+        p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "container">
+    <div class = "box">
+        <p> Dev Kumar Singh</p>
+    </div>
+    </div>
+</body>
+</html>
