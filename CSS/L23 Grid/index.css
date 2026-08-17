@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(106, 118, 108);
+    display:grid;
+    padding:4rem;
+    row-gap:20px;
+    column-gap: 20px;
+    /* grid-template-rows: 100px 100px; */
+                /*or*/
+    /* grid-template-rows: 1fr 1fr; */ 
+                /* or ya same witten as*/
+    grid-template-rows: repeat(4,1fr);
+      
+
+    /* grid-template-columns: 100px 100px 100px; */
+                /*or*/
+    /* grid-template-columns: 1fr 1fr 1fr; */ 
+                /*or ya same witten as */
+    grid-template-columns: repeat(3,1fr);
+
+    /* while media query is using when dimension is less then 768 the page  is as below
+    
+    grid-template-row:repeat(6,1fr);
+    grid-template-column:(1,1fr);*/ 
+}
+.items{
+    background-color: rgb(50, 50, 149);
+    border:3px solid red;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header,.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.content{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/* use make responsive page by using media query*/
+@media (min-width:780px) {
+    .container{
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
+    }
+    .items{
+    background-color: rgb(50, 50, 149);
+    border:3px solid red;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header,.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.content{
+    grid-column-start: 2;
+    grid-column-end: 4; 
+}
+    
+}
